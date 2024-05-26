@@ -16,4 +16,6 @@ Folder DATA has all the photochemical data, including the chemical reaction invo
 kinetic data of non-photolysis reactions is called rates.f under folder SETUP. 
 
 recommend running the code in a cluster. 
+
+In this version of the standard/base code, there is a bug on reaction 306, CH3I + I = CH3 + I2, as it has been wrongly written in the code as CH3I + I = CH3 + I. One should correct it under DATA/primo3s.chm. This bug has marginal/negligible effect on ozone and total iodine budget in all cases. I didn't upload another corrected version as this depository is supposed to be permanent. 
  
